@@ -1,0 +1,80 @@
+/* @media only screen and (max-width: 300px) {
+    #slide-out {
+        width: 50px;
+    }
+} */
+
+* {
+    font-family: arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#slide-out{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+#holding {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    background-color: #c3f7c4;
+    width: 100%;
+    text-align: right;
+}
+
+#cody {
+    padding-top: 5%;
+    padding-right: 5%;
+    font-size: 48pt;
+}
+
+#tagline {
+    padding-top: 3%;
+    font-size: 24pt;
+    padding-right: 5%;
+}
+
+#par1 {
+    opacity: .85; 
+    /* background-image: url("../../assets/images/dark-honeycomb.png");  */
+    height: 100%; 
+}
+
+#par2 {
+    opacity: .85;
+    /* background-image: url("../../assets/images/ep_naturalwhite.png"); */
+    height: 100%;
+}
+
+#about-div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    text-align: right;
+    padding-top: 5%;
+    padding-right: 5%;
+    background-color: #d8a9f5;
+    height: 500px;
+}
+
+#projects-div { 
+    padding-right: 5%;
+    text-align: right;
+} 
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+    font: bold;
+    color: #412254;
+}
+
+.project-image {
+    float: right;
+    opacity: 1;
+}
